@@ -2,7 +2,7 @@ const { Configuration, OpenAIApi } = require("openai");
 const readlineSync = require("readline-sync");
 require("dotenv").config();
 // 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
-
+//
 (async () => {
   const configuration = new Configuration({
     apiKey: process.env.OPENAI_API_KEY,
